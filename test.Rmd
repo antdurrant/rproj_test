@@ -1,0 +1,22 @@
+---
+title: "funky letters"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+éåøüôか上
+
+
+```{r}
+cat("éåøüôか上")
+```
+
+
+```{r}
+readRDS("test.RDS")
+```
+
